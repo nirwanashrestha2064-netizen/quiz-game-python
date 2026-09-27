@@ -1,12 +1,12 @@
 print("🎯 Welcome to Quiz Game!")
 
 question=("What is the capital of Nepal?")
-answer=input(question+" ")
+answer=input(question+" ").lower()
 print("Your answer is :",answer)
 
 score=0
 
-correct_answer="Kathmandu" 
+correct_answer="kathmandu" 
 if answer==correct_answer:
     print("It is absolutely correct!")
     score+=1
@@ -15,9 +15,9 @@ else:
 
 
 question = "Which planet is known as the Red Planet?"
-answer = input(question + " ")
+answer = input(question + " ").lower()
 
-correct_answer = "Mars"
+correct_answer = "mars"
 
 if answer == correct_answer:
     print("It is absolutely correct!")
